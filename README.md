@@ -1,8 +1,13 @@
 # grantapplication-gis
 How to collect and analyze data from grant applications - QGIS project & mockups
 
-The QGIS project consists of various made up point datasets to allow us to make analyses and mockups of the data. 
-The GeoPackage contains all the layers and styles excep the basemap which can be added as XYZ tiles from: http://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png
+The aim of the project was to think of the collecing, visualizing and analyzing of the GIS data from grant applications. City of Helsinki recieves plenty of grant applications which contain information about the location of the applicants. How that data could be collected better, visualized on map and analyzed?
+
+At this point all the analysis were done manually, but it is possible to automate the processes. For different ideas about the analysis and the future scenarios, see [our blog post about the projects and its results.](https://gispo.fi/blogi/paikkatietoa-avustushakemuksista/)  
+
+The QGIS project is stored inside the Geopackage file. **The project consists of various made up point datasets to allow us to make analyses and mockups of the data - no official data from the City of Helsinki was given to us nor is available in this repository.**
+
+The GeoPackage contains all the layers and styles except the basemap. The basemap used on the visualizations can be added as XYZ tiles from: http://a.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png
 
 ### Different analysis consist of:
 
@@ -32,7 +37,7 @@ Count the amount of points in polygon (the borders of areas from Stats Finland),
 ![image5](/images/Granted-percentage.png)
 
 #### 6. Accesibility analysis
-Analysis done based with the Catchment plugin by Gispo. The analysis uses the OpenStreetMap database.
+Analysis done based with the Catchment plugin by Gispo [read more about it here](https://gispo.fi/en/blog/analyzing-school-accessibility-on-qgis/). The analysis uses the OpenStreetMap database.
 
 ![image6](/images/Youth-work-accessibility.png)
 The accessibility of youth work agents, 15min walk
